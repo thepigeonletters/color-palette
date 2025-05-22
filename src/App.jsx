@@ -3,7 +3,7 @@ import chroma from 'chroma-js';
 import { Tabs } from "@headlessui/react";
 import ColorThief from 'colorthief';
 
-export default function App() {
+export default function ColorPaletteGenerator() {
   const [image, setImage] = useState(null);
   const [baseColors, setBaseColors] = useState([]);
   const [palette, setPalette] = useState([]);
